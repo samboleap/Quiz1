@@ -1,70 +1,127 @@
-/* .container{
+/* Media Queries */
+body{
+    height: 100vh;
     width: 100%;
-    margin: 5rem;
+    background-color: whitesmoke;
 }
-div{
-    margin: 10px;
+.md{
+    font-family: sans-serif;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    color: antiquewhite;
 }
-.container .p1{
-    font-size: 25px;
-    clear: none;
+.md h1{
+    background-color: darkgreen;
+
 }
-.container .p2{
-    font-size: 25px;
-    clear: none;
-    margin-top: 180px;
+.md p{
+    background-color: darkmagenta;
 }
-.pic1{
-    float: right;
+.syntax{
+    background-color: blue;
 }
-.pic2{
-    float: left; 
-    margin-top: 160px; 
-} */
-body {
+@media (min-width: 320px) and (max-width: 440px) {
+    .syntax{
+        font-size: 40px;
+    }
+  }
+@media (min-width: 490px) and (max-width: 768px) {
+    .syntax{
+        font-size: 50px;
+    }
+  }
+@media (min-width: 780px) and (max-width: 1024px) {
+    .syntax{
+        font-size: 60px;
+    }
+  }
+@media (min-width: 1080px) and (max-width: 1200px) {
+    .syntax{
+        font-size: 70px;
+    }
+  }
+@media (min-width: 1260px) and (max-width: 1440px) {
+    .syntax{
+        font-size: 80px;
+    }
+  }
+
+
+
+/* position */
+.pos {
     height: 300vh;
+}
+.scorllhead {
+    position: relative;
+    top: 0;
 }
 
 nav {
     background-color: black;
-    color: white;
+    color: pink;
     position: sticky;
     top: 0;
     left: 0;
     display: flex;
     justify-content: center;
 }
-
-.img_body {
+.photo {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: rgba(193, 193, 193, 0.407);
 }
 
-.img_body img {
+.photo img {
     position: fixed;
+    margin-left: 60px;
 }
-
-#dog,
-#cat {
-    position: absolute;
-    right: 0;
-}
-
-.header {
-    position: relative;
-}
-
-#cat {
-    bottom: 10px;
-    right: 0px;
-}
-
-#img {
+.mixphoto {
     background-color: pink;
-    height: 500px;
-    width: 500px;
+    height: 700px;
+    width: 700px;
     position: absolute;
     top: 5rem;
     right: 0;
+    margin-right: 80px;
+}
+
+#img1, #img2 {
+    position: absolute;
+}
+#img1{
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+
+
+#img2 {
+    width: 600px;
+    height: 550px;
+    bottom: 20px;
+}
+/* floating */
+.container{
+    font-family: sans-serif;
+    width: 80%;
+    margin: 8rem;
+}
+
+.container .p1{
+    font-size: 20px;
+    clear: left;
+}
+.container .p2{
+    font-size: 20px;
+    clear: right;
+    margin-top: 300px;
+}
+.pic1{
+    float: right;
+}
+.pic2{
+    float: left; 
+    margin-top: 280px; 
 }
