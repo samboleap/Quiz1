@@ -1,0 +1,70 @@
+/* .container{
+    width: 100%;
+    margin: 5rem;
+}
+div{
+    margin: 10px;
+}
+.container .p1{
+    font-size: 25px;
+    clear: none;
+}
+.container .p2{
+    font-size: 25px;
+    clear: none;
+    margin-top: 180px;
+}
+.pic1{
+    float: right;
+}
+.pic2{
+    float: left; 
+    margin-top: 160px; 
+} */
+body {
+    height: 300vh;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.img_body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(193, 193, 193, 0.407);
+}
+
+.img_body img {
+    position: fixed;
+}
+
+#dog,
+#cat {
+    position: absolute;
+    right: 0;
+}
+
+.header {
+    position: relative;
+}
+
+#cat {
+    bottom: 10px;
+    right: 0px;
+}
+
+#img {
+    background-color: pink;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 5rem;
+    right: 0;
+}
