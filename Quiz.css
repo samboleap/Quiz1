@@ -76,11 +76,13 @@ nav {
 .photo img {
     position: fixed;
     margin-left: 60px;
+    width: 220px;
+    height: 450px;
 }
 .mixphoto {
     background-color: pink;
-    height: 700px;
-    width: 700px;
+    height: 470px;
+    width: 470px;
     position: absolute;
     top: 5rem;
     right: 0;
@@ -91,16 +93,16 @@ nav {
     position: absolute;
 }
 #img1{
-    margin-top: 50px;
-    padding-left: 50px;
+    margin-top: 40px;
+    padding-left: 5px;
+    width: 300px;
+    height: 350px;
 }
-
-
-
 #img2 {
-    width: 600px;
-    height: 550px;
-    bottom: 20px;
+    width: 200px;
+    height: 350px;
+    bottom: 60px;
+    padding-left: 100px;
 }
 /* floating */
 .container{
